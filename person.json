@@ -1,0 +1,13 @@
+{
+    "first_name": "Pero",
+    "last_name": "Peric",
+    "phone": "+385 91 5887722",
+    "email": "pero@gmail.com",
+    "address": {
+        "street": "Ulica 234",
+        "postal_code": "23206",
+        "city": "Zadar",
+        "country": "Hrvatska"
+    },
+    "age": 35
+}
