@@ -10,8 +10,9 @@ def load_from_json_file(file_name='users.json'):
         print(f'Dogodila se greska: {ex}')
 
 
-data_from_file = load_from_json_file()
+data_from_file = load_from_json_file('person.json')
 print(data_from_file)
 
+print()
 for user in data_from_file:
-    print(user['name'], user['email'])
+    print(user['first_name'], user['email'])
